@@ -39,7 +39,7 @@ const Bean: FC<TBean> = ({ title, imageUrl, description, id }) => {
         >
           <h3 className={clsx(styles.card__title)}>
             {title}
-            <span style={{ color: "green" }}>{`...${id}`}</span>
+            <span style={{ color: "#01b9c5" }}>{`...${id}`}</span>
           </h3>
           <img
             src={imageUrl}
@@ -106,7 +106,7 @@ const Beans: FC = () => {
       const { scrollTop, clientHeight, scrollHeight } =
         document.documentElement;
       if (
-        scrollTop + clientHeight >= scrollHeight - 20 &&
+        scrollTop + clientHeight >= scrollHeight - 100 &&
         offset <= totalPages
       ) {
         fetchBeans();

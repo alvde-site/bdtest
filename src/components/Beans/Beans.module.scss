@@ -6,6 +6,7 @@
   width: 100%;
   margin: 0 auto;
   padding: 50px;
+  
   &__title {
     @include font("Bebas Neue");
     font-weight: bold;
@@ -15,7 +16,7 @@
     margin: 0 0 62px;
     text-align: center;
     @include mw($ph) {
-      font-size: 40px;
+      font-size: 30px;
       margin: 0 0 36px;
     }
   }
@@ -51,6 +52,13 @@
       background-color: $grey2;
       cursor: pointer;
     }
+
+    @include mw($ph) {
+      font-size: 20px;
+      line-height: 4;
+      border: 1px solid $red;
+      background-color: $grey2;
+    }
   }
 
   &__title {
@@ -63,6 +71,7 @@
     text-align: center;
     @include mw($ph) {
       font-size: 20px;
+      line-height: 4;
     }
   }
 

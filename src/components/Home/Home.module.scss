@@ -19,12 +19,12 @@
     border: 1px solid $red;
     border-radius: 52px;
     &:hover {
-      color: green;
+      color: $navy;
       border: none;
     }
 
     @include mw($ph) {
-      font-size: 24px;
+      font-size: 18px;
       text-align: left;
     }
   }

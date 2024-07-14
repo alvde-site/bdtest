@@ -1,6 +1,6 @@
 import type { FC } from "react";
 
 const Footer: FC = () => {
-  return <footer style={{ height: "100px" }}></footer>;
+  return <footer></footer>;
 };
 export default Footer;

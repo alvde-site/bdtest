@@ -39,9 +39,9 @@ const SingleBeanPage: FC = () => {
             </li>
           ))}
         </ul>
-        <Link className={clsx(styles.bean__link)} to="/beans">
+        <button className={clsx(styles.bean__back)} onClick={handleBack}>
           Back to beans &#8594;
-        </Link>
+        </button>
       </article>
     </main>
   );
