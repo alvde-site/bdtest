@@ -36,7 +36,7 @@
     max-width: 1098px;
     width: 100%;
     margin: 0 auto;
-    @include mw($dt) {
+    @include mw($ph) {
       grid-template-columns: 1fr;
       gap: 10px;
       align-content: center;
@@ -47,7 +47,7 @@
     max-width: 434px;
     width: 100%;
     display: block;
-    @include mw($dt) {
+    @include mw($ph) {
       margin: 0 auto;
     }
   }

@@ -9,7 +9,7 @@
   margin: 0 auto;
   padding: 50px;
 
-  @include mw($ph) {
+  @include mw($th) {
     width: 100%;
   }
 
