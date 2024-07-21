@@ -81,7 +81,6 @@ const Beans: FC = () => {
   //Initial fetch
   useEffect(() => {
     const { scrollTop, clientHeight, scrollHeight } = document.documentElement;
-    console.log(scrollTop, clientHeight, scrollHeight);
     if (!timesRender.current && !beans.length) {
       timesRender.current = 1;
       dispatch(setBeans({ items: [] }));
